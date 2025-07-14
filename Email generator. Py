@@ -1,0 +1,19 @@
+#ask for first name of user
+first_name=input("first name of user.")
+
+#ask for last name of user
+last_name=input("last name of user.")
+
+#ask for college name
+college=input("name of your college.")
+
+#combine for full name
+full_name=first_name + " " + last_name
+
+#create a email tag using uppercase ,lowercase
+tag = first_name.upper() + "."+ last_name.upper() + "@" + college.lower() + ".edu"
+
+#print the badge
+print("welcome", full_name + "!")
+print("college name -->",college)
+print("your tag is", tag)
